@@ -8,6 +8,7 @@ fn main() {
             width: 450,
             height: 600,
             vsync: true,
+            resizable: false,
             ..Default::default()
         })
         .add_default_plugins()

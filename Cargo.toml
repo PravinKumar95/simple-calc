@@ -6,6 +6,8 @@ edition = "2018"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
+[dependencies.bevy]
+git = "https://github.com/bevyengine/bevy"
+rev = "4a06bbf"
 [dependencies]
-bevy = "0.1.2" 
 bevy_window = "0.1.0"
