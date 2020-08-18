@@ -1,6 +1,6 @@
 use bevy::prelude::*;
 mod calc;
-/// This example illustrates how to create a button that changes color and text based on its interaction state.
+
 fn main() {
     App::build()
         .add_resource(WindowDescriptor {
@@ -145,7 +145,7 @@ fn setup_calc_ui(
                 })
                 .with_children(|parent| {
                     parent
-                        // left vertical fill (content)
+                        // display fill (content)
                         .spawn(NodeComponents {
                             style: Style {
                                 size: Size::new(Val::Percent(100.0), Val::Percent(100.0)),
