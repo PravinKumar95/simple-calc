@@ -8,3 +8,6 @@ Note: It's not feature complete.
 1. git clone https://github.com/PravinKumar95/simple-calc.git
 2. cd simple-calc
 3. cargo run --release
+
+## Note
+In case of compile error, remove config file under .cargo to disable fast builds
