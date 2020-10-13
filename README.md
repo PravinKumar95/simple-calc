@@ -11,3 +11,4 @@ Note: It's not feature complete.
 
 ## Note
 In case of compile error, remove config file under .cargo to disable fast builds
+and beware of use and throw code
